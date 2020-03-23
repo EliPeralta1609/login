@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='login.css' rel='stylesheet' type='text/css'>
+</head>
+  <body>
+  <div class="login-wrap">
+    <div class="login-html">
+     <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Login</label>
+      <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab"></label>
+      <div class="login-form">
+      <div class="sign-in-htm">
+        <div class="group">
+          <label for="user" class="label">Usuario</label>
+          <input class="input" type="text" placeholder="Ingrese usuario" name="uname" id="txtUserName" required>
+        </div>
+        <div class="group">
+          <label for="pass" class="label">Contraseña</label>
+          <input class="input" type="password" placeholder="Ingrese contraseña" name="psw" id="txtPass" required>
+        </div>
+        <div class="group">
+            <button type="submit" class="button" id="login">Entrar</button>
+        </div>
+        <div class="hr"></div>
+        </div>
+        
+      </div>
+    </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <script src="./login.js"></script>
+  </body>
+  
+</html>
